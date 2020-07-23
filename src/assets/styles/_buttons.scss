@@ -1,0 +1,29 @@
+.btn {
+    border: none;
+    height: 35px;
+    padding: 0px 12px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.1s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    &--primary {
+        background-color: #1CA3F2;
+        &:hover {
+            background-color: #35adf3;
+        }
+    }
+    &--destroy {
+        background-color: #F21C1C;
+        &:hover {
+            background-color: #f33535;
+        }
+    }
+    &__icon {
+        &--small {
+            font-size: 13px;
+        }
+    }
+}
